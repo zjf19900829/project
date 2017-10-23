@@ -5,6 +5,7 @@ class Base extends  Controller {
 
     public function status() {
         // 获取值
+        echo "good";
         $data = input('get.');
         // 利用tp5 validate 去做严格检验  id  status
         if(empty($data['id'])) {
